@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      width: 300px;
+      height: 300px;
+      margin: 10px;
+      background-color: #da1212;
+      border-radius: 5px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 6px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .card {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2>Card 1</h2>
+      <img src="image1.jpg" alt="image1">
+      <p>welcome to the occassion</p>
+    </div>
+    <div class="card">
+      <h2>Card 2</h2>
+      <img src="image2.png" alt="image2">
+      <p>welcome to the occassion</p>
+    </div>
+    <div class="card">
+      <h2>Card 3</h2>
+      <img src="image3.jpg" alt="image3">
+      <p>welcome to the occassion.</p>
+    </div>
+  </div>
+</body>
+</html>
